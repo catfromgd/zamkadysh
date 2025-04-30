@@ -1,0 +1,243 @@
+.app {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  /* Header Styles */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Fullscreen Carousel */
+  .fullscreenCarousel {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carouselContainer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  .carouselSlide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carouselSlide.active {
+    opacity: 1;
+  }
+  
+  .carouselContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carouselContent h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 5px;
+  }
+  
+  .carouselContent p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .shopNow {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .shopNow:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .carouselDots {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: white;
+  }
+  
+  /* Main Content */
+  .mainContent {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    padding: 4rem 5%;
+  }
+  
+  .mainContent.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .section {
+    margin-bottom: 4rem;
+  }
+  
+  .section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .productCard {
+    height: 300px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactForm {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .contactForm button {
+    padding: 0.8rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contactForm button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #222;
+    color: white;
+    padding: 3rem 5% 1rem;
+  }
+  
+  .footerContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footerSection h3,
+  .footerSection h4 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .footerSection p {
+    margin-bottom: 1rem;
+    color: #bbb;
+  }
+  
+  .footerSection a {
+    display: block;
+    color: #bbb;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footerSection a:hover {
+    color: white;
+  }
+  
+  .socialLinks {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footerBottom {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+    color: #bbb;
+    font-size: 0.9rem;
+  }
