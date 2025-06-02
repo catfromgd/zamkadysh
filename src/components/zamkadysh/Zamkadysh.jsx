@@ -26,7 +26,7 @@ const Zamkadysh = () => {
     <div className={styles.container}>
       <header>
         <img
-          src="https://ibb.co/6RNT6qtM"
+          src="zamkadysh-logo.png"
           alt="bebra"
           className={styles.headerLogo}
         />
