@@ -39,7 +39,7 @@ const Zamkadysh = () => {
       <div className={styles.goods} ref={targetRef2}>
         {goods.map((el, index) => (
           <div className={styles.goodsCard} key={index}>
-            <img src={`src/assets/goods/${el.id}.png`} alt="" className={styles.goodsCardImg}/>
+            <img src={`goods/${el.id}.png`} alt="" className={styles.goodsCardImg}/>
             <h2 className={styles.goodsCardTitle}>{el.title}</h2>
             <p className={styles.goodsCardDescription}>{el.description.length > 256 ? el.description.slice(0, 256) + '...' : el.description}</p>
             <a href={el.url} download={el.url} className={styles.goodsCardDownloadButton}>Скачать</a>
