@@ -6,9 +6,9 @@
 }
 .container{
   width: 100%;
-  height: 1000px;
   background-color: #1F1F1F;
   padding: 20px;
+  height: 2000px;
 }
 header{
   background-color: #2e2e2e;
@@ -16,6 +16,7 @@ header{
   align-items: center;
   padding: 20px;
   border-radius: 20px;
+  position: fixed;
 }
 .headerLogo{
   width: 400px;
@@ -32,5 +33,37 @@ header{
   color: white;
 }
 .goods{
-  
+  margin-top: 100px;
+  display: flex;
+  gap: 40px;
 }
+.goodsCard {
+  border-radius: 30px;
+  background-color: #292929;
+  width: 20vw;
+  height: 40vh;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.goodsCardImg{
+  height: 40%;
+  width: auto;
+  border-radius: 20px;
+}
+.goodsCardTitle{
+  color: white;
+}
+.goodsCardDescription{
+  color: rgb(180, 180, 180);
+}
+.goodsCardDownloadButton {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 106, 212);
+  padding: 10px;
+  border-radius: 15px;
+  align-self: flex-start;
+} 

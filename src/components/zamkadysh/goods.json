@@ -1,7 +1,20 @@
 {
-  "mytishiMap" : {
-    "title" : "Google карта Мытищ",
-    "description" : "Если Вы живёте рядом с 90-м километром МКАДа, возможно, Вы посещаете Замкадье, а конкректно Мытищи. В таком случае Вам пригодится данная карта для безопасного посещения зоны, оккупированной мутантами. Её можно скачать в PDF формате и пользоваться оффлайн",
+  "test1" : {
+    "id" : "1",
+    "title" : "This is a test of rendering goods.",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis auctor erat sit amet tempor. Sed feugiat risus nulla, nec auctor ante fermentum sagittis. Suspendisse cursus, est id mollis venenatis, purus felis pharetra tortor, ut tincidunt neque neque at arcu. Duis ac felis consectetur, placerat nulla vel, vulputate ligula. Proin convallis metus bibendum, congue dui sit amet, efficitur metus. Quisque diam eros, vestibulum commodo ex vitae, auctor ornare lorem. Maecenas nisl dolor, ullamcorper sit amet justo a, fringilla placerat massa. Donec interdum libero sit amet dui eleifend, quis mattis augue pretium. Nullam in nulla metus. Duis aliquet sollicitudin ante, ut feugiat urna efficitur non. Duis ut risus id nisl volutpat elementum. Sed sed commodo tellus, non facilisis sapien. Sed suscipit, lectus ut fermentum aliquet, velit magna rhoncus neque, quis lobortis purus diam id metus.",
+    "url" : "src/assets/mytishiMap"
+  },
+  "test2" : {
+    "id" : "2",
+    "title" : "This is a test of rendering goods.",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis auctor erat sit amet tempor. Sed feugiat risus nulla, nec auctor ante fermentum sagittis. Suspendisse cursus, est id mollis venenatis, purus felis pharetra tortor, ut tincidunt neque neque at arcu. Duis ac felis consectetur, placerat nulla vel, vulputate ligula. Proin convallis metus bibendum, congue dui sit amet, efficitur metus. Quisque diam eros, vestibulum commodo ex vitae, auctor ornare lorem. Maecenas nisl dolor, ullamcorper sit amet justo a, fringilla placerat massa. Donec interdum libero sit amet dui eleifend, quis mattis augue pretium. Nullam in nulla metus. Duis aliquet sollicitudin ante, ut feugiat urna efficitur non. Duis ut risus id nisl volutpat elementum. Sed sed commodo tellus, non facilisis sapien. Sed suscipit, lectus ut fermentum aliquet, velit magna rhoncus neque, quis lobortis purus diam id metus.",
+    "url" : "src/assets/mytishiMap"
+  },
+  "test3" : {
+    "id" : "3",
+    "title" : "This is a test of rendering goods.",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis auctor erat sit amet tempor. Sed feugiat risus nulla, nec auctor ante fermentum sagittis. Suspendisse cursus, est id mollis venenatis, purus felis pharetra tortor, ut tincidunt neque neque at arcu. Duis ac felis consectetur, placerat nulla vel, vulputate ligula. Proin convallis metus bibendum, congue dui sit amet, efficitur metus. Quisque diam eros, vestibulum commodo ex vitae, auctor ornare lorem. Maecenas nisl dolor, ullamcorper sit amet justo a, fringilla placerat massa. Donec interdum libero sit amet dui eleifend, quis mattis augue pretium. Nullam in nulla metus. Duis aliquet sollicitudin ante, ut feugiat urna efficitur non. Duis ut risus id nisl volutpat elementum. Sed sed commodo tellus, non facilisis sapien. Sed suscipit, lectus ut fermentum aliquet, velit magna rhoncus neque, quis lobortis purus diam id metus.",
     "url" : "src/assets/mytishiMap"
   }
 }
